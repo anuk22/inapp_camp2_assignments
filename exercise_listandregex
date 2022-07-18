@@ -1,0 +1,50 @@
+#Q1.Sort the list in ascending order and print the first element
+lst=[3,4,2,5,1,6,7]
+print("\nSorted list",sorted(lst),"\n","First Element in the list is ",lst[0])
+print("\n")
+#Q2.Python prgm to find the 2nd largest element in a list\
+lst.sort()
+print("\nSecond largest element is ",lst[1])
+print("\n")
+#Q3.python prgrm to print even and odd numbers
+lst=[1,2,3,4,5,6,7,8,9,10]
+print("\nOdd numbers in a list is ",lst[0:10:2])
+print("\nEven numbers in a list is ",lst[1:10:2])
+print("\n")
+
+#Q4.prgm to reverse the list
+print("\nReverse list is :",lst[::-1])
+print("\n")
+#Q5.prgm to print all odd numbers from 1 to 50
+print("\nOdd Numbers from 1 to 50 is ")
+for i in range(1,50,2):
+    print(i,end=" ")
+print("\n")
+#Q6.prgm to count even and odd numbers in a list
+e,o=0,0
+lst=[1,5,2,3,4,6,9,8,7]
+for i in lst:
+    if(i%2==0):
+        e+=1
+    
+    else:
+        o+=1
+print("\nTotal number of even numbers in lst=",e)
+print("\nTotal number of odd numbers in lst=",o)
+print("\n")
+#Q1.python prgm to remove 0 from an ip address("216.08.094.196")
+
+IP="216.08.094.196"
+print(IP.replace("0",""))
+print("\n")
+#Q2.prgm that matches a string that has an a followed by anything ending in b
+import re
+
+txt ="hey its me daytb"
+regex=(r'\S+a+\S+b')
+print(re.findall(regex,txt))
+print("\n")
+#Q3.replace all occurance of 6 and 10 with six and ten
+
+txt="They ate 6 apples and 10 bananas"
+print(txt.replace("6","six").replace("10","ten"))
