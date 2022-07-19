@@ -1,0 +1,80 @@
+mth=int(input("enter the month num"))
+if(mth==1):
+    print("\nGemStone:Garnet")
+    print("\nPeople born in januray are bold and alert")
+elif(mth==2):
+    print("\nGemStone:Ameethyst")
+    print("\nPeople born in february are lucky and loyal")
+elif(mth==3):
+    print("\nGemStone:Aquamarine")
+    print("\nPeople born in march are naughty and genius")
+elif(mth==4):
+    print("\nGemStone:Diamond")
+    print("\nPeople born in april are caring and strong")
+elif(mth==5):
+    print("\nGemStone:emerald")
+    print("\nPeople born in may are loving and practical")
+elif(mth==6):
+    print("\nGemStone:Alexandrite")
+    print("\nPeople born in june are romantic and curious")
+elif(mth==7):
+    print("\nGemStone:ruby")
+    print("\nPeople born in july are adventurous and honest")
+elif(mth==8):
+    print("\nGemStone:peridot")
+    print("\nPeople born in august are active and hardworking")
+elif(mth==9):
+    print("\nGemStone:sapphire")
+    print("\nPeople born in september are sensitive and pretty")
+elif(mth==10):
+    print("\nGemStone:tourmaline")
+    print("\nPeople born in october are stylish and friendly")
+elif(mth==11):
+    print("\nGemStone:citrine")
+    print("\nPeople born in november are nice and creative")
+elif(mth==12):
+    print("\nGemStone:Ziron")
+    print("\nPeople born in december are confident and freedom loving")
+
+def birthstone(num):
+    match num:
+        case 1:
+            print("\nGemStone:Garnet")
+            print("\nPeople born in januray are bold and alert")
+        case 2:
+            print("\nGemStone:Ameethyst")
+            print("\nPeople born in february are lucky and loyal")
+        case 3:
+            print("\nGemStone:Aquamarine")
+            print("\nPeople born in march are naughty and genius")
+        case 4:
+            print("\nGemStone:Diamond")
+            print("\nPeople born in april are caring and strong")
+        case 5:
+            print("\nGemStone:emerald")
+            print("\nPeople born in may are loving and practical")
+        case 6:
+            print("\nGemStone:Alexandrite")
+            print("\nPeople born in june are romantic and curious")
+        case 7:
+            print("\nGemStone:ruby")
+            print("\nPeople born in july are adventurous and honest")
+        case 8:
+            print("\nGemStone:peridot")
+            print("\nPeople born in august are active and hardworking")
+        case 9:
+            print("\nGemStone:sapphire")
+            print("\nPeople born in september are sensitive and pretty")
+        case 10:
+            print("\nGemStone:tourmaline")
+            print("\nPeople born in october are stylish and friendly")
+        case 11:
+            print("\nGemStone:citrine")
+            print("\nPeople born in november are nice and creative")
+        case 12:
+            print("\nGemStone:Ziron")
+            print("\nPeople born in december are confident and freedom loving")
+        case _:
+            print("invalid")
+stone=int(input("enter mth"))
+birthstone(stone)
