@@ -28,7 +28,7 @@ print(days)
 print(days)
 days.clear()
 print(days)
- """
+
 
  #set operator
 
@@ -57,4 +57,27 @@ print("difference : ",set3-set2)
 
 #symmetric difference
 print("symmetric diff :",set3 ^ set2)
+
+
+#Set comaprison operators
+#checking if month1 is a superset of month2
+
+mth1={"jan","feb","march","april","may","jun"}
+mth2={"march","april","may","feb"}
+mth3={"march","may","feb","april"}
+
+print(mth1>mth2)
+print(mth1<mth2)
+print(mth2 == mth3)
+print(mth1 >= mth2)
+
+#FrozenSets is a new class that has the characteristics of a set,
+#but it is immutable
+
+mth4=frozenset(["nov","dec"])
+print(mth4)
+#add.frozenset("ghsf")#shows an error "exceptionOccured"
+#print(mth4)
+
+"""
 
